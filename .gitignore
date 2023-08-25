@@ -1,0 +1,23 @@
+# 忽略所有 build 資料夾
+build/
+
+# 忽略所有 .DS_Store 檔案（僅適用於 macOS）
+.DS_Store
+
+# 忽略編譯產生的檔案
+*.exe
+*.o
+*.class
+
+# 忽略某個特定的檔案
+my-secret-config.json
+
+# 忽略 node_modules 資料夾
+node_modules/
+
+# 忽略環境相關的檔案
+.env
+.env.local
+
+# 忽略 log 資料夾
+logs/
